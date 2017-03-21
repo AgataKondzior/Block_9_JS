@@ -1,0 +1,107 @@
+body {   
+    overflow: hidden;
+    left: 0;
+    margin: 0;
+    position: relative;
+}
+
+.header {
+    width:100%;
+    height:120px;
+    font-family:'Lucida Handwriting', sans-serif; 
+    color: #47476b;
+    font-size: 30px;   
+}
+
+.header h1{
+    text-align: center;
+        
+}
+
+/*Menu*/
+
+.menu {
+    background:white;
+    display:inline-block;
+    left:-180px;
+    position:fixed;
+  
+}
+
+.menu a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    min-height: 25px;
+    color: #47476b;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+    border-bottom: 1px solid #47476b;
+}
+
+.menu ul {
+    list-style: none;
+    text-decoration:none;
+    width: 140px;
+    float: left; 
+}
+
+.menu li {
+    padding:10px 0px;
+    margin: 10px 0;   
+}
+    
+
+.menu a:hover {
+   
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #7979d2;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+.menu-toggle {
+    font-size:55px;
+    color:#47476b;
+    position:absolute;
+    padding: 10px ;
+    background-color: white;
+    cursor: pointer;
+    
+}
+/*Menu icon
+
+.menu-close {
+    background: white;
+    font-size:55px;
+    color:#47476b;
+    position:relative;
+    text-align:right;
+    cursor: pointer;
+    margin-right: -50px;
+}
+.menu-open {
+    
+    position:absolute;
+    padding: 10px ;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.menu-open i {
+    font-size: 55px;
+    color:#47476b;
+    }   
+
+Content*/
+
+img{
+    width: 100%;
+    height: 100%;
+   
+}
