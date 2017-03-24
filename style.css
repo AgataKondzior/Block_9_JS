@@ -24,8 +24,14 @@ body {
     background:white;
     display:inline-block;
     left:-180px;
-    position:fixed;
-  
+    position:fixed; 
+}
+
+.menu i {
+    font-size:25px;
+    color:#47476b;
+    cursor:pointer;
+    float:right;
 }
 
 .menu a {
