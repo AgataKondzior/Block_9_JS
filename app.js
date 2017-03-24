@@ -13,7 +13,7 @@ var main = function (){
    });
     
    
-   $(".menu-toggle").click(function(){
+   $("i").click(function(){
    $(".menu").animate({
             left:"-180px"
         },600);      
