@@ -35,7 +35,7 @@ body {
 }
 
 .menu a {
-    width:180px;
+    width:160px;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     min-height: 25px;
@@ -50,7 +50,7 @@ body {
 .menu ul {
     list-style: none;
     text-decoration:none;
-    width: 140px;
+    width: 160px;
     float: left; 
 }
 
