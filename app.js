@@ -11,6 +11,8 @@ var main = function (){
  
    $(".menu-toggle").hide(100);    
    });
+    
+   $(".menu-toggle").click(function(){
  
    $(".menu").animate({
             left:"-180px"
