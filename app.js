@@ -7,7 +7,7 @@ var main = function (){
 
    $("body").animate({
             left:"180px"
-        },600);
+        },200);
  
    $(".menu-toggle").hide(100);    
    });
@@ -16,7 +16,7 @@ var main = function (){
    $("i").click(function(){
    $(".menu").animate({
             left:"-180px"
-        },600);      
+        },200);      
 
    $("body").animate({
             left:"0px"
