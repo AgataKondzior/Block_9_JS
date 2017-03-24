@@ -10,9 +10,7 @@ var main = function (){
         },600);
  
    $(".menu-toggle").hide(100);    
-   });
-    
-   $(".menu-toggle").click(function(){
+   
  
    $(".menu").animate({
             left:"-180px"
