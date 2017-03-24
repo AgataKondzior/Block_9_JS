@@ -35,6 +35,7 @@ body {
 }
 
 .menu a {
+    width:180px;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     min-height: 25px;
@@ -54,8 +55,7 @@ body {
 }
 
 .menu li {
-    padding:10px 0px;
-    margin: 10px 0;   
+    padding:10px 0px;   
 }
     
 
