@@ -9,7 +9,7 @@ var main = function (){
             left:"180px"
         },200);
  
-   $(".menu-toggle").hide(100);    
+   $(".menu-toggle").hide("fast");    
    });
     
    
