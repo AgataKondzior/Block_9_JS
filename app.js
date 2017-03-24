@@ -21,7 +21,7 @@ var main = function (){
    $("body").animate({
             left:"0px"
         },600);
-   $(":hidden").show(100);
+   $(".menu-toggle").show(100);
 });
   };
 
