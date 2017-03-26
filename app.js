@@ -1,28 +1,42 @@
-var main = function (){ 
-    
-   $(".menu-toggle").click(function(){
-    $(".menu").animate({
-            left:"0px"
-        },200);      
+var main = function()
+{   
+   $(".menu").hide();
+   $(".menu-toggle").click(function()
+    {
+       
+       $(".menu").toggle();
+       
+       $("i").removeClass("fa fa-bars");   
+       $("i").addClass("fa fa-times");
 
-   $("body").animate({
+  if( $(".menu").is(':visible') )   
+        {
+            $(".menu").animate({
+            left:"0px"
+            },200);   
+          
+            $("body").animate({
             left:"180px"
-        },200);
- 
-   $(".menu-toggle").hide(100);    
-   });
-    
-   
-   $("i").click(function(){
-   $(".menu").animate({
+            },200);
+        }
+       
+   else
+        {
+            $(".menu").animate({
             left:"-180px"
-        },200);      
-
-   $("body").animate({
+            },200);
+            
+            $("body").animate({
             left:"0px"
-        },200);
-   $(".menu-toggle").show(100);
-});
-  };
+            },200);    
+     
+            $("i").removeClass("fa fa-times");   
+            $("i").addClass("fa fa-bars");
+        }
+
+    });
+        
+};
 
 $(document).ready(main);
+
