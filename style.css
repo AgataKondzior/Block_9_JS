@@ -1,5 +1,4 @@
 body {   
-    overflow: hidden;
     left: 0;
     margin: 0;
     position: relative;
@@ -23,7 +22,9 @@ body {
 .menu {
     background:white;
     display:inline-block;
-    left:-180px;
+    /*left:-180px;*/
+    position:fixed;
+    width:180px;
     position:fixed; 
     width: 180px;
 }
@@ -55,6 +56,7 @@ body {
 }
 
 .menu li {
+    padding:10px 0px;
     padding:10px 0px;   
 }
     
@@ -77,35 +79,8 @@ body {
     cursor: pointer;
     
 }
-/*Menu icon
-
-.menu-close {
-    background: white;
-    font-size:55px;
-    color:#47476b;
-    position:relative;
-    text-align:right;
-    cursor: pointer;
-    margin-right: -50px;
-}
-.menu-open {
-    
-    position:absolute;
-    padding: 10px ;
-    background-color: white;
-    cursor: pointer;
-    
-}
-
-.menu-open i {
-    font-size: 55px;
-    color:#47476b;
-    }   
-
-Content*/
 
 img{
     width: 100%;
-    height: 100%;
    
 }
