@@ -22,7 +22,7 @@ body {
 .menu {
     background:white;
     display:inline-block;
-    /*left:-180px;*/
+    left:-180px;
     position:fixed;
     width:180px;
     position:fixed; 
