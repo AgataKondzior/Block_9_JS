@@ -6,7 +6,7 @@ body {
 
 .header {
     width:100%;
-    height:120px;
+    margin-bottom:20px;
     font-family:'Lucida Handwriting', sans-serif; 
     color: #47476b;
     font-size: 30px;   
